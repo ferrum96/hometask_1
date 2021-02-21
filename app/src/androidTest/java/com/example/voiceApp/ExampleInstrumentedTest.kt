@@ -1,4 +1,4 @@
-package com.example.hometask_1
+package com.example.voiceApp
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
