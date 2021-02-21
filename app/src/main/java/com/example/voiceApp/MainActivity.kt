@@ -53,7 +53,7 @@ class MainActivity : AppCompatActivity() {
                             for (element in subpod.contents) {
                                 if (element is WAPlainText) {
                                     Log.d("wolfram", element.text)
-                                    answer = element.text
+                                    answer += element.text + "\n"
                                 }
                             }
                         }
